@@ -1,3 +1,6 @@
+
+/* Workshop */
+
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 * {outline: 1px solid red; }
@@ -50,6 +53,7 @@ body {
 }
 
 #what {
+    margin-top: 360px;
     background-color: rgba(200,240,220,0.9);
 }
 
@@ -58,13 +62,48 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color: #386;        /* Fix Colour */
+    font-weight: bold;
+}
+
+#what p ~ p {
+    font-size: smaller;
 }
 
 #what h1 {
     text-align: center;
     padding: 25px 0;
-    color: #386
+    color: #386;        /* Fix Colour */
 }
+
+/* Home */
+
+#what h2 {
+    text-align: center;
+    padding: 25px 0;        /* how much padding?? */
+    color: #386;        /* Fix Colour */
+}
+
+#sponsor_logos {
+    text-align: center;
+}
+
+#sponsor_logos img{
+    width: 100%;
+    max-width: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
 
 
 
