@@ -96,6 +96,58 @@ body {
     display: inline-block;
 }
 
+#why h1 {
+    text-align: center;
+    padding: 25px 0 0;        /* how much padding?? */
+    color: #386;        /* Fix Colour */
+}
+
+#why p {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #386;        /* Fix Colour */
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#why {
+    margin-bottom: 50px;
+}
+
+#where {
+    margin-top: 360px;
+    margin-bottom: 360px;
+    background-image: url(img/map.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    margin: 0;
+    height: 375px;
+}
+
+#where h1 {
+    text-align: center;
+    padding: 25px 0 0;        /* how much padding?? */
+    color: #84B;        /* Fix Colour */
+}
+
+#where p {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #84B;        /* Fix Colour */
+    font-weight: bold;
+    font-size: smaller;
+    text-align: right;
+}
+
+#when {
+    
+}
+
 
 
 
