@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8" />
+        
+        <title>Layout 7</title>
+        
+        <style>
+            div {
+                outline: 1px solid black;
+            }
+            
+            #container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin: auto;
+                max-width: 800px;
+            }
+            
+            .blue {
+                display: grid;
+                background-color: blue;
+                grid-column: 1/5;
+                grid-template-columns: 1fr 2fr;
+                height: 100px;
+                grid-gap: 20px;
+                padding: 20px;
+            }
+            
+            #green1 {
+                background-color: lime;
+                grid-column: 1/5;
+                height: 500px;
+            }
+            
+            #red1 {
+                display: grid;
+                background-color: red;
+                grid-column: 1/5;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 2fr;
+                height: 400px;
+                grid-gap: 20px;
+                padding: 20px;
+            }
+            
+            #blue {
+                display: grid;
+                background-color: blue;
+                grid-column: 1/5;
+                height: 700px;
+                grid-gap: 20px;
+                padding: 20px;
+            }
+            
+            #green2 {
+                display: grid;
+                background-color: lime;
+                grid-column: 1/5;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 3fr;
+                height: 600px;
+                grid-gap: 20px;
+                padding: 20px;
+            }
+            
+            #red2 {
+                display: grid;
+                background-color: red;
+                grid-column: 1/4;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 2fr 1fr;
+                height: 500px;
+                grid-gap: 20px;
+                padding: 20px;
+            }
+            
+            .yellow {
+                background-color: yellow;
+            }
+            
+            .yellow_wide {
+                grid-column: 1/4;
+                background-color: yellow;
+            }
+            
+            .yellow_big {
+                grid-row: 2/4;
+                grid-column: 1/3;
+                background-color: yellow;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <div id="container">
+            <div class="blue">
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            <div id="green1"></div>
+            <div id="red1">
+                <div class="yellow_wide"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            <div id="blue">
+                <div class="yellow_wide"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            <div id="green2">
+                <div class="yellow_wide"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+                <div class="yellow"></div>
+            </div>
+            <div id="red2">
+                <div class="yellow_wide"></div>
+                <div class="yellow_big"></div>
+                <div class="yellow"></div>
+            </div>
+            <div class="blue"></div>
+        </div>
+    </body>
+
+</html>
