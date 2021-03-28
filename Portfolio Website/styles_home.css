@@ -1,0 +1,162 @@
+* {
+outline: 0px dotted lime;
+}
+
+/*
+grey details #afb4bc
+background #bac9d6
+text #206881
+text highlight #174859
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: green;
+    }
+
+    .name {
+        grid-column: 1/3;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .links {
+        grid-column: 1/3;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /*  */
+}
+
+/* TOP */
+
+body {
+    background-color: #afb4bc;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#top_bar {
+    background-color: #afb4bc;
+    height: 25px;
+}
+
+/* HEAD */
+
+.head {
+    display: inline-grid;
+    grid-template-columns: 1fr 100px 2fr;
+    width: 100%;
+    background-color: #afb4bc;
+    height: 100;
+    font-family: 'Lato', serif;
+}
+
+.title {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #bac9d6;
+    color: #206881;
+    height: 60px;
+    font-size: 250%;
+}
+
+.triangle {
+    width: 100%;
+    border-bottom: 400px solid #bac9d6;
+    border-right: 650px solid transparent;
+}
+
+.menu {
+    position: absolute;
+    padding-top: 50px;
+    height: 50px;
+    padding-left: 60%;
+    font-size: 150%;
+    min-width: 300px;
+}
+
+.menu a {
+    color: #206881;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+#selected {
+    color: black;
+}
+
+/* MAIN */
+
+.main {                       /* height ?? */
+    margin-top: -5px;
+    display: inline-grid;
+    grid-template-columns: auto 50px;
+    align-items: start;
+    width: 97%;
+    font-family: 'Lato', sans-serif;
+    min-width: 800px;
+}
+
+.main-text {
+    min-height: 600px;
+    padding: 20px;
+    grid-row: 1/3;
+    background-color: #bac9d6;
+}
+
+.main-right {
+    background-color: #bac9d6;
+    width: 50px;
+    height: 105%;
+    min-height: 610px;
+}
+
+/* END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
