@@ -27,7 +27,7 @@ text highlight #174859
         margin-top: 10px;
         text-align: center;
     }
-    
+
     /*  */
 }
 
@@ -48,7 +48,7 @@ body {
 
 .head {
     display: inline-grid;
-    grid-template-columns: 1fr 100px 2fr;
+    grid-template-columns: 450px 100px auto;
     width: 100%;
     background-color: #afb4bc;
     height: 100;
@@ -66,25 +66,27 @@ body {
 }
 
 .triangle {
-    width: 100%;
+    width: 350px;
     border-bottom: 400px solid #bac9d6;
     border-right: 650px solid transparent;
 }
 
 .menu {
     position: absolute;
-    padding-top: 50px;
-    height: 50px;
-    padding-left: 60%;
+    top: 80px;
+    right: 105px;
     font-size: 150%;
-    min-width: 300px;
+    margin-left: 470px;
 }
 
-.menu a {
-    color: #206881;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-decoration: none;
+a.link {
+  padding: 6px;
+  width: 100px;
+  text-align: center;
+  color: #206881;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
 }
 
 /* mouse over link */
@@ -115,48 +117,27 @@ a:hover {
     background-color: #bac9d6;
 }
 
+.video_wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.video_wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*
 .main-right {
     background-color: #bac9d6;
     width: 50px;
     height: 105%;
     min-height: 610px;
 }
+*/
 
 /* END */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
