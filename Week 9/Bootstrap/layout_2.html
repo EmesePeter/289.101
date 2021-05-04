@@ -29,21 +29,36 @@
             .orange {
                 background-color: #FFAE2E;
                 height: auto;
+                
             }
             
-            .grey {
+            .grey_lg {
                 background-color: #C4C4C4;
-                height: 100px;
+                width: 100%;
+                padding-top: 35%;
+            }
+            
+            .grey_md {
+                background-color: #C4C4C4;
+                width: 100%;
+                padding-top: 50%;
+            }
+            
+            .grey_sm {
+                background-color: #C4C4C4;
+                height: calc(50vw);
+                width: calc(50vw);
             }
             
             .maroon {
                 background-color: #AF3552;
                 height: auto;
+                min-height: 250px;
             }
             
             .pink {
                 background-color: #EC8FEF;
-                height: 100px;
+                height: auto;
             }
             
             /* xs devices */
@@ -80,23 +95,43 @@
         </div>
         
         <div class="row">
-            <div class="col-sm-12 col-lg-3 lime"></div>
-            <div class="col-xs-12 col-sm-6 row col-lg-6 orange">
-                <div class="col-xs-6 col-lg-4 grey"></div>
+            <div class="d-none d-sm-block col-sm-12 col-lg-3 lime"></div>
+            <div class="col-sm-6 row col-lg-6 orange">
+                <div class="d-none d-lg-block col-sm-6 col-lg-4 grey_lg"></div>
                 <div class="d-none d-lg-block col-lg-8 pink"></div>
-                <div class="col-xs-6 col-lg-4 grey"></div>
+                <div class="d-none d-lg-block col-sm-6 col-lg-4 grey_lg"></div>
                 <div class="d-none d-lg-block col-lg-8 pink"></div>
-                <div class="col-xs-6 col-lg-4 grey"></div>
+                <div class="d-none d-lg-block col-sm-6 col-lg-4 grey_lg"></div>
                 <div class="d-none d-lg-block col-lg-8 pink"></div>
-                <div class="col-xs-6 col-lg-4 grey"></div>
+                <div class="d-none d-lg-block col-sm-6 col-lg-4 grey_lg"></div>
                 <div class="d-none d-lg-block col-lg-8 pink"></div>
-                <div class="col-xs-6 col-lg-4 grey"></div>
+                <div class="d-none d-lg-block col-sm-6 col-lg-4 grey_lg"></div>
                 <div class="d-none d-lg-block col-lg-8 pink"></div>
-                <div class="col-xs-6 col-lg-4 grey"></div>
+                <div class="d-none d-lg-block col-sm-6 col-lg-4 grey_lg"></div>
                 <div class="d-none d-lg-block col-lg-8 pink"></div>
+                
+                <div class="d-none d-sm-block d-lg-none col-sm-6 col-lg-4 grey_md"></div>
+                <div class="d-none d-sm-block d-lg-none col-sm-6 col-lg-4 grey_md"></div>
+                <div class="d-none d-sm-block d-lg-none col-sm-6 col-lg-4 grey_md"></div>
+                <div class="d-none d-sm-block d-lg-none col-sm-6 col-lg-4 grey_md"></div>
+                <div class="d-none d-sm-block d-lg-none col-sm-6 col-lg-4 grey_md"></div>
+                <div class="d-none d-sm-block d-lg-none col-sm-6 col-lg-4 grey_md"></div>
             </div>
             <div class="d-none d-sm-block col-sm-6 col-lg-3 maroon"></div>
         </div>
+        
+        <div class="d-block d-sm-none col-xs-12 lime"></div>
+        
+        <div class="row">
+            <div class="d-block d-sm-none col-xs-6 grey_sm"></div>
+            <div class="d-block d-sm-none col-xs-6 grey_sm"></div>
+            <div class="d-block d-sm-none col-xs-6 grey_sm"></div>
+            <div class="d-block d-sm-none col-xs-6 grey_sm"></div>
+            <div class="d-block d-sm-none col-xs-6 grey_sm"></div>
+            <div class="d-block d-sm-none col-xs-6 grey_sm"></div>
+        </div>
+        
+        <div class="d-block d-sm-none col-xs-12 maroon"></div>
         
     </body>
 
