@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+    
+        <title>Event Listeners Example</title>
+    </head>
+
+    <body>
+
+        <div id="hello_btn">
+            say hello
+        </div>
+
+        <script>
+            
+            var x = 1;
+            
+            var hellobutton = document.getElementById('hello_btn');
+            
+            hellobutton.addEventListener('click', () => {
+                hellobutton.style.color = 'yellow';
+                hellobutton.style.backgroundColor = 'orange';
+                console.log('colour changes applied: ' + x);
+                x ++;
+            });
+
+        </script>
+
+    </body>
+
+</html>
